@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/css/index.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <video autoplay muted loop id="background">
+      <source src="/images/171124_H1_006.mp4">
+    </video>
+    <div class="container">
+      <div class="card">
+        <h1>Cadastrar</h1>
+
+        <div id="msgError"></div>
+        <div id="msgSuccess"></div>
+
+        <div class="label-float">
+          <input type="text" id="nome" placeholder=" " required />
+          <label id="labelNome" for="nome">Nome</label>
+        </div>
+
+        <div class="label-float">
+          <input type="text" id="usuario" placeholder=" " required />
+          <label id="labelUsuario" for="usuario">Usuário</label>
+        </div>
+
+        <div class="label-float">
+          <input type="password" id="senha" placeholder=" " required />
+          <label id="labelSenha" for="senha">Senha</label>
+          <span class="material-symbols-outlined" id="verSenha">visibility</span>
+        </div>
+
+        <div class="label-float">
+          <input type="password" id="confirmSenha" placeholder=" " required />
+          <label id="labelConfirmSenha" for="confirmSenha"
+            >Confirmar Senha</label
+          >
+          <span class="material-symbols-outlined" id="verConfirmSenha">visibility</span>
+        </div>
+
+        <div class="justify-center">
+          <button onclick="cadastrar()">Cadastrar</button>
+        </div>
+        <p>
+          Já tem uma conta?
+          <a href="/entrar.html">
+            Conecte-se
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <script src="/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,144 @@
+*{
+    font-family: 'Roboto', sans-serif;
+  }
+  #background{
+      height: 770px 100vh;
+      width: 1280px;
+      background-size: cover;
+      margin-top: -10px;
+      margin-left: -7px;
+      position: fixed;
+      
+  }
+  .container{
+          position: absolute;
+          top: 2%;
+          left: 32%;
+          background-color: #ffffff50;
+          display: flex;
+          justify-content: center;
+          margin-top: -10px;
+          border: 1px solid #ffffff30;
+          border-radius: 2%;
+        }
+        
+        .card {
+
+          
+          height: 580px;
+          padding: 30px;
+          border-radius: 2%;
+          width: 400px;
+          display: flex;
+          flex-direction: column;
+          margin-bottom: -20px;
+           }
+         h1{
+          text-align: center;
+          margin-bottom: 10px;
+          color: #b70fbd;
+          margin-top: -10px;
+        }
+        
+        .label-float input{
+          width: 360px;
+          padding: 6px 16px;
+          display: inline-block;
+          outline: none;
+          min-width: 180px;
+          font-size: 16px;
+          transition: all .3s ease-out;
+          background-color: #ffffff80;
+          border: 0;
+          border-radius: 10px;
+          height: 25px;
+        }
+        
+        .label-float{
+          position: relative;
+          padding-top: 13px;
+          margin-top: 5%;
+          margin-bottom: 5%;
+        }
+      
+        
+        .label-float label{
+          color: #b70fbd;
+          position: absolute;
+          top: 10px;
+          left: 14px;
+          margin-top: 13px;
+          transition: all .3s ease-out;
+        }
+        
+        .label-float input:focus + label,
+        .label-float input:valid + label{
+          font-size: 15px;
+          margin-top: -16px;
+          color: #b70fbd;
+        }
+        
+        button{
+          background-color: #b70fbd;
+          border-color: #b70fbd;
+          color: #fff;
+          padding: 7px;
+          font-weight: bold;
+          font-size: 12pt;
+          margin-top: 20px;
+          cursor: pointer;
+          outline: none;
+          transition: all .4s ease-out;
+          width: 500px;
+          border: 1px solid #ffffff10;
+          border-radius: 10px;
+          width: 100%;
+          margin-left: px;
+          height: 60px;
+        }
+        
+        button:hover{
+          background-color: #55a05f70;
+          color: #b70fbd;
+        }
+        p{
+          margin-left: 5px;
+        }
+        a{
+          text-decoration: none;
+          color: #b70fbd;
+          margin-left: 5px;
+          }
+        .justify-center{
+          display: flex;
+          justify-content: center;
+        }
+        
+        #verConfirmSenha ,#verSenha{
+          position: absolute;
+          top: 18px;
+          right: 20px;
+          cursor: pointer;
+          color: #b70fbd;
+        }
+        
+        #msgError{
+          text-align: center;
+          color: #ff0000;
+          background-color: #ffbbbb;
+          padding: 10px;
+          border-radius: 4px;
+          display: none;
+        }
+        
+        #msgSuccess{
+          text-align: center;
+          color: #00bb00;
+          background-color: #bbffbe;
+          padding: 10px;
+          border-radius: 4px;
+          display: none;
+        
+  
+  }
+  
